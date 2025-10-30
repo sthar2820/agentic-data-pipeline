@@ -1,4 +1,11 @@
-"""Agents Module - Data Analytics Agents"""
+"""
+Agents Package
+
+Three specialized AI agents for data analytics:
+- InspectorAgent: Data profiling and validation
+- RefinerAgent: Data cleaning and transformation
+- InsightAgent: Analysis and insights generation
+"""
 
 from .inspector import InspectorAgent
 from .refiner import RefinerAgent

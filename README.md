@@ -1,4 +1,4 @@
-# 🔬 Agentic Data Analytics Pipeline
+# Agentic Data Analytics Pipeline
 
 An automated, intelligent data analytics pipeline powered by three specialized AI agents that work together to inspect, refine, and generate insights from your data.
 
@@ -6,29 +6,28 @@ An automated, intelligent data analytics pipeline powered by three specialized A
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## 📋 Overview
+## Overview
 
 This pipeline uses a multi-agent architecture to automate the entire data analytics workflow:
 
-1. **🔍 Inspector Agent** - Data profiling and quality validation
-2. **🧹 Refiner Agent** - Data cleaning and transformation
-3. **📊 Insight Agent** - Exploratory data analysis and visualization
-4. **🎯 Orchestrator** - Coordinates all agents and manages the pipeline flow
-5. **💻 Streamlit UI** - Interactive web interface for easy interaction
+1. Inspector Agent - Data profiling and quality validation
+2. Refiner Agent - Data cleaning and transformation
+3. Insight Agent - Exploratory data analysis and visualization
+4. Orchestrator - Coordinates all agents and manages the pipeline flow
+5. Streamlit UI - Interactive web interface for easy interaction
 
-## ✨ Features
+##  Features
+- Automated Data Profiling - Generate comprehensive data reports with ydata-profiling
+- Data Quality Validation - Validate data using Great Expectations
+- Smart Data Cleaning - Handle missing values, remove duplicates, unify categories
+- Advanced Transformations - Fuzzy matching, imputation, normalization
+- Rich Visualizations - Distribution plots, correlation heatmaps, categorical analysis
+- Interactive UI - User-friendly Streamlit interface
+- Comprehensive Logging - Track all operations with detailed metrics
+- Multiple File Formats - Support for CSV, Excel, JSON, Parquet
+- CI/CD Ready - GitHub Actions workflow included
 
-- ✅ **Automated Data Profiling** - Generate comprehensive data reports with ydata-profiling
-- ✅ **Data Quality Validation** - Validate data using Great Expectations
-- ✅ **Smart Data Cleaning** - Handle missing values, remove duplicates, unify categories
-- ✅ **Advanced Transformations** - Fuzzy matching, imputation, normalization
-- ✅ **Rich Visualizations** - Distribution plots, correlation heatmaps, categorical analysis
-- ✅ **Interactive UI** - User-friendly Streamlit interface
-- ✅ **Comprehensive Logging** - Track all operations with detailed metrics
-- ✅ **Multiple File Formats** - Support for CSV, Excel, JSON, Parquet
-- ✅ **CI/CD Ready** - GitHub Actions workflow included
-
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -54,7 +53,7 @@ This pipeline uses a multi-agent architecture to automate the entire data analyt
 └────────────────┘ └────────────┘ └────────────┘
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -130,7 +129,7 @@ print(f"Status: {results['status']}")
 print(f"Duration: {results['metrics']['duration_seconds']}s")
 ```
 
-## 🔧 Configuration
+## Configuration
 
 Edit `configs/pipeline_config.yaml` to customize the pipeline:
 
@@ -160,9 +159,9 @@ pipeline:
     generate_plots: true
 ```
 
-## 📦 Agent Details
+##  Agent Details
 
-### 🔍 Inspector Agent
+###  Inspector Agent
 
 **Technologies:**
 - `ydata-profiling` - Automated EDA and profiling
@@ -206,7 +205,7 @@ pipeline:
 - Interactive dashboards
 - Summary statistics
 
-## 🧪 Testing
+## Testing
 
 Run the test suite:
 
@@ -224,7 +223,7 @@ pytest tests/agents/test_inspector.py -v
 pytest -v
 ```
 
-## 📊 Example Output
+## Example Output
 
 After running the pipeline, you'll find:
 
@@ -288,7 +287,7 @@ agentic-data-pipeline/
 └── README.md                # This file
 ```
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -298,21 +297,19 @@ Contributions are welcome! Please follow these steps:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [ydata-profiling](https://github.com/ydataai/ydata-profiling) for automated profiling
 - [Great Expectations](https://greatexpectations.io/) for data validation
 - [pyjanitor](https://github.com/pyjanitor-devs/pyjanitor) for data cleaning
 - [Streamlit](https://streamlit.io/) for the web framework
 
-## 📧 Contact
+## Contact
 
 For questions or feedback, please open an issue on GitHub.
 
----
 
-Made with ❤️ by the community
